@@ -59,18 +59,3 @@ dd {
     margin-left: 20px;
     margin-bottom: 10px;
 }
-
-.descending {
-    counter-reset: item 4;
-}
-
-.descending li {
-    list-style-type: none;
-}
-
-.descending li:before {
-    content: counter(item) ". ";
-    counter-increment: item -1;
-    font-weight: bold;
-    color: #009933;
-}
